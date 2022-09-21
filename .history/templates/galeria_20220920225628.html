@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nuestra galeria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/galeria.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"')}}">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body class="bg-warning">
+      <!--<ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+          <ul class="nav-item">
+            <li class="nav-item">
+                <a "nav-link" aria-current="page" href="#">Menú galeria</a>
+            </li>
+          </ul>
+        </li>
+      </ul>-->
+
+      <h1 class="p-3 mb-2 bg-dark text-warning text-center">Cupbop | Korean BBQ in a Cup</h1>
+
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="{{ url_for('static', filename='images/Rock.png')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ROCK BOP</h5>
+              <p class="card-text">Korean style tangy fried chicken</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{{ url_for('static', filename='images/Combo.png')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">COMBO BOP</h5>
+              <p class="card-text">Your choice of two proteins / veggies</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{{ url_for('static', filename='images/B.png')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">B BOP</h5>
+              <p class="card-text">Korean style BBQ beef</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../images/Kko.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PIGGY BOP</h5>
+              <p class="card-text">Korean style BBQ pork</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../images/Mandoo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MANDOO BOP</h5>
+              <p class="card-text">Deep-Fried Pot stickers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
