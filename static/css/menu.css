@@ -1,0 +1,196 @@
+/*reset de parametros del navegador*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+/* estilo del van bar*/
+.header{
+    background-color: #335A77;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 0%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all(0.9s);
+    padding-top: 10px;
+    border-top: 10px
+    ;
+}
+
+.header .nav-link{
+    list-style: none;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    padding: 0% 20px;
+}
+
+.header .nav-link{
+    font-size: 700;
+    font-family: montserrant;
+    src: url(/static/fonts/montserrat/static/Montserrat-SemiBold.ttf);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .nav-link li:hover{
+    transform: scale(1.1);
+}
+
+.header .btn button{
+    font-weight: 100;
+    color: white;
+    padding: 3px 25px;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btnlogin button{
+    font-weight: 100;
+    color: black;
+    padding: 3px 25px;
+    background:rgb(255, 238, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/*fin del estilo del nav bar*/
+.categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloitem{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloitem h1{
+    display: inline-block;
+    font-weight: 100;
+    color: yellow;
+    padding: 3px 25px;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+}
+
+.categorias h1{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 84%;
+    font-weight: 100;
+    color: black;
+    padding: 3px 25px;
+    background: rgb(255, 238, 0);
+    border: none;
+    border-radius: 50px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 33%;
+}
+
+/*tarjeta bbq*/
+.cardbbq{
+    font-family: montserrat;
+    src: url(/static/fonts/montserrat/static/Montserrat-SemiBold.ttf);
+    transition: all 0.5s;
+}
+.cardbbq a{
+    text-decoration: none;
+}
+
+.cardbbq img:hover{
+    transform: scale(1.1);
+}
+
+/*tamaño de platos*/
+.cardbbq .img-container img{
+    width: 80%;
+}
+
+.cardbbq .add-car{
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.cardbbq .add-car:hover{
+    color: black;
+    background-color: yellow;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/*precio-promo*/
+
+section .cardbbq .img-container .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+/*like */
+
+.cardbbq .img-container .like{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    font-size: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 50px;
+    height: 5px;
+    width: 5px;
+}
+
+/*tamano del like*/
+
+.cardbbq .img-container .like img{
+    width: 30%;
+}
