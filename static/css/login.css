@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ECDA18;
+}
+
+.bg-logo {
+    background-color: #000;
+    width: 600px;
+    height: 160px;
+    border-radius: 8px;
+    margin-top: 160px;
+    justify-content: center;
+}
+
+.bg-logo img {
+    width:100%;
+}
+
+.bg {
+    margin-top: 40px;
+    height: 720px;
+    background-image: url('https://d3t2sst0273m7m.cloudfront.net/truck_banner_image/by-md5/6/f/6f3b9f82044547c5f2616ee089f465c7/cupbop_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 420px;
+    height: 515px;
+    background-color: #000;
+    opacity: 86%;
+    color: #fff;
+    border-radius: 8px;
+}
+
+input {
+    height: 55px;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 55px;
+    background: #AD1E24 !important;
+}
+
+.btn-submit:hover {
+    background: #d7262f !important;
+}
+
+.recover:hover {
+    text-decoration: underline;
+}
+
+.btn-create {
+    background: #ECDA18 !important;
+    height: 48px;
+    width: 60%
+}

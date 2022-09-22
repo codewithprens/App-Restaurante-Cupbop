@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ECDA18;
+}
+
+.form {
+    width: 500px;
+    background-color: #000;
+    opacity: 86%;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn {
+    width: 110px;
+}
+
+.btn-submit {
+    height: 50px;
+    background: #AD1E24 !important;
+}
+
+.btn-submit:hover {
+    background: #d7262f !important;
+}

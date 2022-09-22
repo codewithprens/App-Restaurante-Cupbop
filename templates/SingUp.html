@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registrarse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/SingUp.css')}}">
+  </head>
+  <body>
+    <section class="container-fluid">
+        <div class="row mt-5">
+            <div class="col d-flex justify-content-center">
+                <div class="bg-logo">
+                  <img width="350px" src="https://chambermaster.blob.core.windows.net/images/customers/786/members/8695/logos/MEMBER_PAGE_HEADER/Copy_of_BB_3_(2).png" alt="logo cupbop">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col d-flex justify-content-center">
+            <div class="form">
+              <form class="mt-1">
+                <div class="row mb-3 g-2">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombres" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellidos" aria-label="Last name">
+                  </div>
+                </div>
+                <div class="row mb-3 g-2">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Cédula" aria-label="Cédula">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Teléfono" aria-label="Telefono">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo electrónico">
+                </div>
+                <div class="row mb-3 g-2">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Usuario" aria-label="Usuario">
+                  </div>
+                  <div class="col">
+                    <input type="password" class="form-control" placeholder="Contraseña" aria-label="Last name">
+                  </div>
+                </div>
+                <small class="text-white">Sexo</small>
+                <div class="row mb-2 g-2">
+                  <div class="col mb-3">
+                    <div class="form-check form-check-reverse label d-flex justify-content-around align-items-center">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Hombre
+                      </label>
+                      <input class="form-check-input" type="radio" value="M" name="flexRadioDefault" id="flexRadioDefault1">
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="form-check form-check-reverse label d-flex justify-content-around align-items-center">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Mujer
+                      </label>
+                      <input class="form-check-input" type="radio" value="F" name="flexRadioDefault" id="flexRadioDefault2">
+                    </div>
+                  </div>
+                </div>
+                <hr class="text-white mt-0">
+                <small class="text-white">Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la Política de privacidad y la Política de cookies.</small>
+                <div class="col">
+                  <button type="submit" class="btn btn-danger btn-submit mt-3 mb-4 fs-5">Registrarse</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
