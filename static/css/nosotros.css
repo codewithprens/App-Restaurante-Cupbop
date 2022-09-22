@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+/*--------------------------------------------------*/
+/*Clases del header*/
+.header{
+    background-color: #335A77;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 0%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all(0.9s);
+    padding-top: 10px;
+    border-top: 10px
+    ;
+}
+
+.header .nav-link{
+    list-style: none;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    padding: 0% 20px;
+}
+
+.header .nav-link{
+    font-size: 700;
+    font-family: montserrant;
+    src: url(/static/fonts/montserrat/static/Montserrat-SemiBold.ttf);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .nav-link li:hover{
+    transform: scale(1.1);
+}
+
+.header .btn button{
+    font-weight: 100;
+    color: white;
+    padding: 3px 25px;
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btnlogin button{
+    font-weight: 100;
+    color: black;
+    padding: 3px 25px;
+    background:rgb(255, 238, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+/*------------------------------------------------------*/
+/*clases del banner*/
+.banner {
+    position: relative;       
+}
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: white ;
+    text-align: center;
+    font-size: 1.8em;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+.text-container{
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+/*---------------------------------------------------*/
+/*Clase de imagenes*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+.img1{
+    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.img2{
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+/*--------------------------------------------------*/
+
+.division{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+.div{
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+}
+/*----------------------------------------------------*/
+/*Clases de los flexbox*/
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+.flex-item {
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+.flex-cont {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.flex-itm1 {
+    background-color: black;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+/*-------------------------------------------------*/
+.size{
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+}
+.si{
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color{
+    background-color: rgb(253, 206, 12);
+}
+/*-------------------------------------------------*/
+/*Clases del footer*/
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer img{
+    width: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.root {
+    --shadow-color: 287deg 6% 30%;
+    --shadow-elevation-medium:
+      0.3px 0.5px 0.9px hsl(var(--shadow-color) / 0),
+      1.5px 2.9px 4.9px hsl(var(--shadow-color) / 0.27),
+      3px 6.1px 10.2px hsl(var(--shadow-color) / 0.55),
+      6.3px 12.5px 21px hsl(var(--shadow-color) / 0.82);
+}
+
